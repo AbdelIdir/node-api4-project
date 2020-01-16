@@ -1,5 +1,7 @@
 require("dotenv").config();
 
+
+
 const express = require("express");
 const cors = require("cors");
 const helmet = require("helmet");
@@ -22,5 +24,5 @@ app.use((req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`listening on ${port}`);
+  console.log(`server listening on ${port}`);
 });
